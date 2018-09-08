@@ -210,10 +210,13 @@ h2 {
   width: 455px;
 }
 .forms textarea {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
   resize: none;
   outline: none;
   width: 455px;
-  height: 210px;
+  height: 237px;
   position: absolute;
   right: -20px;
   top: 15px;

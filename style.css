@@ -45,14 +45,12 @@
 }
 .page-wrapper {
   box-sizing: border-box;
-  height: 1300px;
   width: 940px;
   margin: auto;
-  padding-left: 50px;
-  padding-right: 25px;
+  
 }
 header {
-  height: 200px;
+  height: 160px;
 }
 .site-name {
   font-family: "Emblema One";
@@ -60,7 +58,7 @@ header {
   font-size: 26px;
   color: #fed136;
   float: left;
-  margin-top: 22px;
+  margin-top: 40px;
 }
 
 .menu {
@@ -74,8 +72,7 @@ header {
   font-weight: 400;
   font-size: 14px;
   font-family: "Montserrat";
-  margin: 30px 0 0 0;
-}
+  margin: 53px 0 0 -6px;}
 
 .menu-item-title {
   text-decoration: none;
@@ -89,15 +86,34 @@ header {
   color: #fed136;
 }
 
+
+.servic-one
+{
+  margin-left: -21px;}
+
+
 .services {
-  height: 450px;
+  padding-top: 10px;
+  width: 943px;
+
 }
-h2 {
+
+.services-title{
+  width: 931px;
+  margin:0;
+
+}
+.services h2 {
+  margin-top: 16px;
+  letter-spacing: 0px;
   font-family: "Montserrat";
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 400px;
   text-align: center;
+  margin-bottom: 5px;
+  padding-right: 10px;
+
 }
 
 .services-title span {
@@ -116,6 +132,8 @@ h2 {
   font-family: "Montserrat";
   font-weight: bold;
   text-align: center;
+  margin: 22px 0 7px 0;
+
 }
 .servic-wrapper span {
   font-family: "Roboto Slab";
@@ -153,10 +171,10 @@ h2 {
 }
 
 .contact {
-  position: ;
+  margin-top: 172px;
 }
 .background {
-  top: 700px;
+  top: 643px;
   z-index: 0;
   left: 0;
   position: absolute;
@@ -171,7 +189,7 @@ h2 {
 }
 
 .contact-title {
-  margin-top: 150px;
+  padding-top: 8px;
 }
 .contact-title h2 {
   z-index: 10;
@@ -179,9 +197,12 @@ h2 {
   font-family: "Montserrat";
   text-transform: uppercase;
   font-size: 40px;
+  margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
+  width: 1406px;
+
 }
 
 .contact-title span {
@@ -192,12 +213,18 @@ h2 {
   display: flex;
   justify-content: center;
   color: #777777;
-  height: 100px;
+  margin-bottom: 58px;
+
 }
 .forms {
-  width: 955px;
+  margin: auto;
+  width: 995px;
   position: relative;
   z-index: 20;
+}
+
+.forms form{
+  width: 800px
 }
 .input-text {
   padding-left: 15px;
@@ -206,25 +233,30 @@ h2 {
   font-weight: bold;
   z-index: 20;
   margin: 15px 15px 15px 15px;
-  height: 55px;
-  width: 455px;
+  height: 48px;
+  width: 439px;
+  border-radius: 8px;
+
 }
+
 .forms textarea {
   font-family: "Montserrat";
-  font-size: 14px;
-  font-weight: bold;
-  resize: none;
-  outline: none;
-  width: 455px;
-  height: 237px;
-  position: absolute;
-  right: -20px;
-  top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+    width: 450px;
+    height: 192px;
+    position: absolute;
+    right: 38px;
+    top: 15px;
+    padding-top: 17px;
+    border-radius: 8px;
 }
 
 .submit {
-  height: 60px;
-  width: 255px;
+  height: 64px;
+  width: 240px;
   background-color: #fed136;
   border: none;
   border-radius: 4px;
@@ -239,8 +271,9 @@ h2 {
   outline: none;
 }
 .wrapper-submit {
+  margin-top: 5px;
   text-align: center;
-  margin-top: 15px;
+  width: 975px;
 }
 input:focus:valid {
   outline: 2px green solid;
